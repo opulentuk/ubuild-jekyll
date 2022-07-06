@@ -1,6 +1,7 @@
 ---
 label: simple-header
 hide_body: false
+display_field: block
 fields:
 - type: text
   hidden: true
