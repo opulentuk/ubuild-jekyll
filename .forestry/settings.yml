@@ -10,9 +10,6 @@ sections:
   read_only: true
 - type: heading
   label: about me
-- type: jekyll-posts
-  label: Posts
-  create: all
 - type: directory
   path: ''
   label: Pages
@@ -22,6 +19,9 @@ sections:
   new_doc_ext: md
   templates:
   - page-builder
+- type: jekyll-posts
+  label: Posts
+  create: all
 - type: document
   path: _config.yml
   label: Config
